@@ -1,0 +1,80 @@
+﻿<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Formulario</title>
+<link href="styles.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body {
+	background-color: #FFFFD7;
+	margin-top: 120px;
+}
+.Estilo1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}
+#Layer1 {
+	position:absolute;
+	width:275px;
+	height:38px;
+	z-index:1;
+	left: 25px;
+	top: 30px;
+}
+.Estilo2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #A80000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#Layer2 {
+	position:absolute;
+	width:301px;
+	height:62px;
+	z-index:2;
+	left: 492px;
+	top: 22px;
+}
+-->
+</style></head>
+
+<body>
+    <div id="Layer2"><img src="index_archivos/Logossxxpdf.JPG" width="301" height="61"></div>
+    <p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<div class="Estilo2" id="Layer1">Formulario del Cliente: </div>
+<p>
+<p>
+<center>
+
+<!-- formulario de contacto -->
+
+	<form action="envia.php" method="post" class="form-consulta"> 
+		<label><span class="Estilo1"> Nombre y apellido del Cliente:</span>  <span>*</span>
+			<input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+	  </label>
+		
+		<label><span class="Estilo1">Email del Cliente:</span> <span>*</span>
+			<input type="email" name="email" placeholder="Email" class="campo-form" required>
+	  </label>
+		
+		<label><span class="Estilo1">Listar su Pedido Aqui:</span>
+			<textarea name="consulta" class="campo-form"></textarea>
+	  </label>
+
+		<input type="submit" value="Enviar" class="btn-form">
+	</form>
+
+<!-- formulario -->
+</center>
+
+</body>
+</html>
